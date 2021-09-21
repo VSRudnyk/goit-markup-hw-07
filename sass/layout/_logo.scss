@@ -1,0 +1,18 @@
+.logo {
+  @include font($fw: 700, $fs: 26px, $lh: 31px);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header__logo {
+  color: $black-text-color;
+
+  &--accent {
+    color: $accent-color;
+  }
+}
+
+.footer__logo {
+  color: #ffffff;
+}

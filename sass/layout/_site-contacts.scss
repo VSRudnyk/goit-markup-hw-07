@@ -1,0 +1,32 @@
+/* Site contacts */
+.site-contacts {
+  display: flex;
+  margin: 0;
+  margin-left: auto;
+}
+
+.site-contacts__link {
+  @include font($fw: 500, $fs: 14px, $ls: 0.02em);
+  color: $secondary-text-color;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.site-contacts__items {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.site-contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

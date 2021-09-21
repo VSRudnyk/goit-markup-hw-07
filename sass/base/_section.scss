@@ -1,0 +1,16 @@
+/* Section */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: $font-weight-700;
+  font-size: $font-size-36;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  text-align: center;
+}
